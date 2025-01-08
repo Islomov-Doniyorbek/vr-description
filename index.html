@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Izohli lug'at</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>VR Izohli Lug'ati</header>
+        <div class="search">
+            <input type="text" placeholder="finding word" required>
+            <i class="fa fa-search"></i>
+            <i class="fa fa-close"></i>
+            <!-- <div class="material-icons">close</div> -->
+        </div>
+        <p class="info-text">
+            Type a word and press enter to get meaning example, pronuncition and synonyms of that typed word
+        </p>
+        <ul>
+            <li class="word">
+                <div class="details">
+                    <p id="searchingWord">...</p>
+                </div>
+            </li>
+            <div class="content">
+                <p class="description"></p>
+            </div>
+        </ul>
+        <div class="search">
+            <button id="search">Qidirish</button>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
